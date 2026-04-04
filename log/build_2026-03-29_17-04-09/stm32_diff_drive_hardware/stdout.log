@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_hardware.dir/src/diff_drive_hardware.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libstm32_diff_drive_hardware.so[0m
+[100%] Built target stm32_diff_drive_hardware
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware//stm32_diff_drive_hardware_plugin.xml
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib/libstm32_diff_drive_hardware.so
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/include/stm32_diff_drive_hardware/diff_drive_hardware.hpp
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/stm32_diff_drive_hardware_plugin.xml
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/library_path.sh
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/library_path.dsv
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/ament_index/resource_index/package_run_dependencies/stm32_diff_drive_hardware
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/ament_index/resource_index/parent_prefix_path/stm32_diff_drive_hardware
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/path.sh
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/path.dsv
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/local_setup.bash
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/local_setup.sh
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/local_setup.zsh
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/local_setup.dsv
+-- Symlinking: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.dsv
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/ament_index/resource_index/packages/stm32_diff_drive_hardware
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/stm32_diff_drive_hardware
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/cmake/stm32_diff_drive_hardwareConfig.cmake
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/cmake/stm32_diff_drive_hardwareConfig-version.cmake
+-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.xml

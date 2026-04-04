@@ -1,0 +1,51 @@
+[0.097s] Invoking command in '/home/giang/ros2_myrobot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/giang/ros2_myrobot/build/my_bot -- -j6 -l6
+[1.024s] Invoked command in '/home/giang/ros2_myrobot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/giang/ros2_myrobot/build/my_bot -- -j6 -l6
+[1.061s] Invoking command in '/home/giang/ros2_myrobot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/giang/ros2_myrobot/build/my_bot
+[1.077s] -- Install configuration: ""
+[1.078s] -- Execute custom install script
+[1.087s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/bringup.launch.py
+[1.088s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[1.089s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/mission_node.py
+[1.093s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/online_async_launch.py
+[1.094s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.095s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/rsp.launch_v2.py
+[1.098s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/rsp.launch_v3.py
+[1.100s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.105s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/description/ros2_control.xacro
+[1.106s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/base_link1.STL
+[1.110s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linkbanhphai.STL
+[1.110s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linkbanhtrai.STL
+[1.110s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linklidar.STL
+[1.111s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linkphusau.STL
+[1.113s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linkphutruoc.STL
+[1.114s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c1_save.pgm
+[1.117s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c1_save.yaml
+[1.117s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c1_serialize.data
+[1.119s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c1_serialize.posegraph
+[1.121s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c205_save.pgm
+[1.122s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c205_save.yaml
+[1.122s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c205_serialize.data
+[1.123s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c205_serialize.posegraph
+[1.126s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/empty.yaml
+[1.126s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[1.127s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/my_controllers.yaml
+[1.129s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.130s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/worlds/empty.world
+[1.133s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/rviz/my_bot.rviz
+[1.133s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/rviz/mybot.rviz
+[1.133s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.135s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.138s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.139s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.140s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/environment/path.sh
+[1.142s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/environment/path.dsv
+[1.143s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/local_setup.bash
+[1.146s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/local_setup.sh
+[1.147s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/local_setup.zsh
+[1.148s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/local_setup.dsv
+[1.148s] -- Symlinking: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.dsv
+[1.178s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.178s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.183s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.183s] -- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.xml
+[1.191s] Invoked command in '/home/giang/ros2_myrobot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/giang/ros2_myrobot/build/my_bot

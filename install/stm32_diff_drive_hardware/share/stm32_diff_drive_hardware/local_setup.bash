@@ -1,0 +1,1 @@
+/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.c.o"
+  "CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.c.o.d"
+  "CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.c.o"
+  "CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.c.o.d"
+  "CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.c.o"
+  "CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.c.o.d"
+  "libstm32_diff_drive_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libstm32_diff_drive_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.c"
+  "rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.c"
+  "rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

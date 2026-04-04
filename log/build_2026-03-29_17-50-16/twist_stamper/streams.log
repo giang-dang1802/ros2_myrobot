@@ -1,0 +1,17 @@
+[2.670s] Invoking command in '/home/giang/ros2_myrobot/build/twist_stamper': PYTHONPATH=/home/giang/ros2_myrobot/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/giang/ros2_myrobot/build/twist_stamper/build --no-deps symlink_data
+[3.438s] running develop
+[3.944s] running egg_info
+[3.944s] writing twist_stamper.egg-info/PKG-INFO
+[3.944s] writing dependency_links to twist_stamper.egg-info/dependency_links.txt
+[3.945s] writing entry points to twist_stamper.egg-info/entry_points.txt
+[3.946s] writing requirements to twist_stamper.egg-info/requires.txt
+[3.946s] writing top-level names to twist_stamper.egg-info/top_level.txt
+[3.950s] reading manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[3.954s] writing manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[3.957s] running build_ext
+[3.958s] Creating /home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages/twist-stamper.egg-link (link to .)
+[3.960s] Installing twist_stamper script to /home/giang/ros2_myrobot/install/twist_stamper/lib/twist_stamper
+[3.961s] 
+[3.961s] Installed /home/giang/ros2_myrobot/build/twist_stamper
+[3.962s] running symlink_data
+[4.024s] Invoked command in '/home/giang/ros2_myrobot/build/twist_stamper' returned '0': PYTHONPATH=/home/giang/ros2_myrobot/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/giang/ros2_myrobot/build/twist_stamper/build --no-deps symlink_data

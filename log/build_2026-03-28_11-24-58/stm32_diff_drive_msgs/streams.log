@@ -1,0 +1,286 @@
+[0.114s] Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/giang/ros2_myrobot/src/stm32_diff_drive_msgs -DCMAKE_INSTALL_PREFIX=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs
+[0.703s] -- The C compiler identification is GNU 11.4.0
+[1.091s] -- The CXX compiler identification is GNU 11.4.0
+[1.138s] -- Detecting C compiler ABI info
+[1.373s] -- Detecting C compiler ABI info - done
+[1.399s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.399s] -- Detecting C compile features
+[1.401s] -- Detecting C compile features - done
+[1.412s] -- Detecting CXX compiler ABI info
+[1.653s] -- Detecting CXX compiler ABI info - done
+[1.673s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.673s] -- Detecting CXX compile features
+[1.674s] -- Detecting CXX compile features - done
+[1.741s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.257s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.657s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.963s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.020s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.874s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.367s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.382s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.489s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.490s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.491s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.491s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.558s] -- Found PythonExtra: .so  
+[5.698s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.705s] -- Added test 'lint_cmake' to check CMake code style
+[5.710s] -- Added test 'xmllint' to check XML markup files
+[5.746s] -- Configuring done
+[5.871s] -- Generating done
+[5.910s] -- Build files have been written to: /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs
+[5.931s] Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/giang/ros2_myrobot/src/stm32_diff_drive_msgs -DCMAKE_INSTALL_PREFIX=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs
+[5.932s] Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs -- -j6 -l6
+[6.065s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.098s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.121s] [  4%] Built target ament_cmake_python_copy_stm32_diff_drive_msgs
+[6.896s] running egg_info
+[6.897s] creating stm32_diff_drive_msgs.egg-info
+[6.898s] writing stm32_diff_drive_msgs.egg-info/PKG-INFO
+[6.899s] writing dependency_links to stm32_diff_drive_msgs.egg-info/dependency_links.txt
+[6.899s] writing top-level names to stm32_diff_drive_msgs.egg-info/top_level.txt
+[6.900s] writing manifest file 'stm32_diff_drive_msgs.egg-info/SOURCES.txt'
+[6.905s] reading manifest file 'stm32_diff_drive_msgs.egg-info/SOURCES.txt'
+[6.907s] writing manifest file 'stm32_diff_drive_msgs.egg-info/SOURCES.txt'
+[6.972s] [  4%] Built target ament_cmake_python_build_stm32_diff_drive_msgs_egg
+[7.135s] [  6%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_generator_c.dir/rosidl_generator_c/stm32_diff_drive_msgs/msg/detail/motor_command__functions.c.o[0m
+[7.173s] [  8%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_generator_c.dir/rosidl_generator_c/stm32_diff_drive_msgs/msg/detail/encoder_vals__functions.c.o[0m
+[7.174s] [ 10%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_generator_c.dir/rosidl_generator_c/stm32_diff_drive_msgs/msg/detail/motor_vels__functions.c.o[0m
+[7.208s] [ 10%] Built target stm32_diff_drive_msgs__cpp
+[7.239s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.239s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.242s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.365s] [ 19%] [32m[1mLinking C shared library libstm32_diff_drive_msgs__rosidl_generator_c.so[0m
+[7.496s] [ 19%] Built target stm32_diff_drive_msgs__rosidl_generator_c
+[7.527s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.552s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.563s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.200s] [ 27%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stm32_diff_drive_msgs/msg/motor_command__type_support.cpp.o[0m
+[8.272s] [ 29%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.cpp.o[0m
+[8.683s] [ 31%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stm32_diff_drive_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[8.797s] [ 34%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stm32_diff_drive_msgs/msg/motor_command__type_support.cpp.o[0m
+[8.902s] [ 36%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stm32_diff_drive_msgs/msg/motor_vels__type_support.cpp.o[0m
+[8.966s] [ 38%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.c.o[0m
+[9.068s] [ 40%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stm32_diff_drive_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[9.152s] [ 42%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stm32_diff_drive_msgs/msg/detail/motor_command__type_support_c.cpp.o[0m
+[9.157s] [ 44%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[9.268s] [ 46%] [32m[1mLinking CXX shared library libstm32_diff_drive_msgs__rosidl_typesupport_c.so[0m
+[9.317s] [ 48%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[9.424s] [ 51%] [32m[1mLinking C shared library libstm32_diff_drive_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.521s] [ 51%] Built target stm32_diff_drive_msgs__rosidl_typesupport_introspection_c
+[9.548s] [ 53%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stm32_diff_drive_msgs/msg/motor_vels__type_support.cpp.o[0m
+[9.569s] [ 53%] Built target stm32_diff_drive_msgs__rosidl_typesupport_c
+[9.634s] [ 55%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.cpp.o[0m
+[9.645s] [ 57%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stm32_diff_drive_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[10.329s] [ 59%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support_c.cpp.o[0m
+[10.643s] [ 61%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stm32_diff_drive_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o[0m
+[10.866s] [ 63%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support_c.cpp.o[0m
+[10.945s] [ 65%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stm32_diff_drive_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o[0m
+[11.128s] [ 68%] [32m[1mLinking CXX shared library libstm32_diff_drive_msgs__rosidl_typesupport_cpp.so[0m
+[11.346s] [ 68%] Built target stm32_diff_drive_msgs__rosidl_typesupport_cpp
+[11.410s] [ 70%] [32mBuilding CXX object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.cpp.o[0m
+[12.394s] [ 72%] [32m[1mLinking CXX shared library libstm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.537s] [ 74%] [32m[1mLinking CXX shared library libstm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.657s] [ 74%] Built target stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c
+[12.777s] [ 74%] Built target stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp
+[12.807s] [ 76%] [32m[1mLinking CXX shared library libstm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[12.980s] [ 76%] Built target stm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp
+[13.061s] [ 76%] Built target stm32_diff_drive_msgs
+[13.141s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.647s] [ 78%] Built target stm32_diff_drive_msgs__py
+[14.706s] [ 80%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_generator_py.dir/rosidl_generator_py/stm32_diff_drive_msgs/msg/_motor_command_s.c.o[0m
+[14.709s] [ 82%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_generator_py.dir/rosidl_generator_py/stm32_diff_drive_msgs/msg/_encoder_vals_s.c.o[0m
+[14.714s] [ 85%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_generator_py.dir/rosidl_generator_py/stm32_diff_drive_msgs/msg/_motor_vels_s.c.o[0m
+[15.234s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/stm32_diff_drive_msgs/libstm32_diff_drive_msgs__rosidl_generator_py.so[0m
+[15.431s] [ 87%] Built target stm32_diff_drive_msgs__rosidl_generator_py
+[15.486s] [ 89%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.486s] [ 93%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.486s] [ 93%] [32mBuilding C object CMakeFiles/stm32_diff_drive_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.764s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.767s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.770s] [100%] [32m[1mLinking C shared library rosidl_generator_py/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.861s] [100%] Built target stm32_diff_drive_msgs__rosidl_typesupport_c__pyext
+[15.868s] [100%] Built target stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.870s] [100%] Built target stm32_diff_drive_msgs__rosidl_typesupport_introspection_c__pyext
+[15.956s] Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs -- -j6 -l6
+[15.959s] Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs
+[16.015s] -- Install configuration: ""
+[16.016s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/ament_index/resource_index/rosidl_interfaces/stm32_diff_drive_msgs
+[16.016s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs
+[16.016s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/motor_command.h
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/motor_vels.h
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__functions.h
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__functions.h
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__struct.h
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.h
+[16.017s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__functions.h
+[16.038s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__struct.h
+[16.039s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__functions.c
+[16.039s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.h
+[16.039s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__struct.h
+[16.040s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.h
+[16.040s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__functions.c
+[16.040s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__functions.c
+[16.041s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/encoder_vals.h
+[16.042s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/library_path.sh
+[16.043s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/library_path.dsv
+[16.044s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_generator_c.so
+[16.044s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_generator_c.so" to ""
+[16.044s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs
+[16.044s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg
+[16.045s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.046s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail
+[16.047s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[16.048s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[16.049s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[16.049s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c.so
+[16.049s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.051s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs
+[16.051s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg
+[16.052s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.052s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail
+[16.053s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[16.053s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.c
+[16.053s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[16.053s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[16.053s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.c
+[16.054s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.c
+[16.054s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_introspection_c.so
+[16.054s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.054s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_c.so
+[16.054s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_c.so" to ""
+[16.055s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs
+[16.055s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg
+[16.055s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/motor_command.hpp
+[16.056s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/motor_vels.hpp
+[16.056s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.056s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/encoder_vals.hpp
+[16.056s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail
+[16.057s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__traits.hpp
+[16.057s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__traits.hpp
+[16.057s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__struct.hpp
+[16.059s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.hpp
+[16.059s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.hpp
+[16.060s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__builder.hpp
+[16.061s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.hpp
+[16.061s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__builder.hpp
+[16.062s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__struct.hpp
+[16.063s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__traits.hpp
+[16.063s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__builder.hpp
+[16.064s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__struct.hpp
+[16.064s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs
+[16.064s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg
+[16.064s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail
+[16.065s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/dds_fastrtps
+[16.065s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[16.065s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[16.065s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[16.065s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.065s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.066s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.067s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs
+[16.067s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg
+[16.067s] -- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail
+[16.067s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.cpp
+[16.068s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.cpp
+[16.068s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.cpp
+[16.068s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[16.069s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[16.070s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[16.070s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp.so
+[16.070s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.070s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_cpp.so
+[16.071s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_cpp.so" to ""
+[16.072s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/pythonpath.sh
+[16.072s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/pythonpath.dsv
+[16.073s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info
+[16.073s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.074s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[16.074s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.074s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[16.074s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs
+[16.074s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.076s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/__init__.py
+[16.076s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/libstm32_diff_drive_msgs__rosidl_generator_py.so
+[16.078s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.078s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_c.c
+[16.078s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.079s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg
+[16.080s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_vels.py
+[16.080s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/__init__.py
+[16.081s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_encoder_vals_s.c
+[16.081s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_encoder_vals.py
+[16.081s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_vels_s.c
+[16.081s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_command.py
+[16.081s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_command_s.c
+[16.081s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.081s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.200s] Listing '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs'...
+[16.200s] Compiling '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/__init__.py'...
+[16.201s] Listing '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg'...
+[16.201s] Compiling '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/__init__.py'...
+[16.202s] Compiling '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_encoder_vals.py'...
+[16.202s] Compiling '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_command.py'...
+[16.202s] Compiling '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_vels.py'...
+[16.212s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.212s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.213s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.213s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.213s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.216s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.217s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_generator_py.so
+[16.217s] -- Set runtime path of "/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_generator_py.so" to ""
+[16.217s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/MotorCommand.idl
+[16.218s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/MotorVels.idl
+[16.218s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/EncoderVals.idl
+[16.218s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/MotorCommand.msg
+[16.219s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/MotorVels.msg
+[16.220s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/EncoderVals.msg
+[16.220s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/ament_index/resource_index/package_run_dependencies/stm32_diff_drive_msgs
+[16.221s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/ament_index/resource_index/parent_prefix_path/stm32_diff_drive_msgs
+[16.221s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/ament_prefix_path.sh
+[16.221s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/ament_prefix_path.dsv
+[16.222s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/path.sh
+[16.222s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/path.dsv
+[16.223s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/local_setup.bash
+[16.223s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/local_setup.sh
+[16.224s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/local_setup.zsh
+[16.225s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/local_setup.dsv
+[16.225s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.dsv
+[16.226s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/ament_index/resource_index/packages/stm32_diff_drive_msgs
+[16.226s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_cExport.cmake
+[16.227s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.228s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.228s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.229s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.229s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.229s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_cExport.cmake
+[16.230s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.230s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_cppExport.cmake
+[16.230s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.231s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.231s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.232s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.232s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_cppExport.cmake
+[16.232s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.233s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_pyExport.cmake
+[16.234s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.234s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/rosidl_cmake-extras.cmake
+[16.234s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.235s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.235s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.236s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.236s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.237s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.237s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgsConfig.cmake
+[16.237s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgsConfig-version.cmake
+[16.237s] -- Installing: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.xml
+[16.245s] Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs

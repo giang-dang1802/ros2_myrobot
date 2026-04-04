@@ -1,0 +1,1 @@
+/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs/rosidl_generator_cpp/stm32_diff_drive_msgs/msg/detail/motor_command__struct.hpp

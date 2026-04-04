@@ -1,0 +1,1 @@
+/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs/rosidl_generator_py/stm32_diff_drive_msgs/msg/_motor_vels_s.c

@@ -1,0 +1,1 @@
+/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs/rosidl_typesupport_introspection_c/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h

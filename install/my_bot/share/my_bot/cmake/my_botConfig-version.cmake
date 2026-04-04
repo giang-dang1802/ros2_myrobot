@@ -1,0 +1,1 @@
+/home/giang/ros2_myrobot/build/my_bot/ament_cmake_core/my_botConfig-version.cmake

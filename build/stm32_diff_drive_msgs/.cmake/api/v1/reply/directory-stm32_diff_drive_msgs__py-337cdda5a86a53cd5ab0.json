@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "stm32_diff_drive_msgs__py",
+		"source" : "/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs/stm32_diff_drive_msgs__py"
+	}
+}

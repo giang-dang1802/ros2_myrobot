@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a384d617cfd97e622910.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "stm32_diff_drive_msgs__py",
+					"jsonFile" : "directory-stm32_diff_drive_msgs__py-337cdda5a86a53cd5ab0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs/stm32_diff_drive_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "stm32_diff_drive_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_stm32_diff_drive_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_stm32_diff_drive_msgs_egg-3d59ffd92e698d7a6c7d.json",
+					"name" : "ament_cmake_python_build_stm32_diff_drive_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_stm32_diff_drive_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_stm32_diff_drive_msgs-a04f1be4ce0b54583f56.json",
+					"name" : "ament_cmake_python_symlink_stm32_diff_drive_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs-128d28699169a55d7393.json",
+					"name" : "stm32_diff_drive_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__cpp-7b801a1af93661b2a1b2.json",
+					"name" : "stm32_diff_drive_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stm32_diff_drive_msgs__py::@dced03cf664d77040214",
+					"jsonFile" : "target-stm32_diff_drive_msgs__py-7ca1dd53879cb4b780bb.json",
+					"name" : "stm32_diff_drive_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_generator_c-c75b73de85b3c07bd967.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_generator_py-5a855947a7f385825115.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_c-d6df600562cf9c3c1177.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_c__pyext-b6f70d0fd318f7483fde.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_cpp-9e5e772eb932ff65eab2.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c-e85d949b9ab4e60035c0.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c__pyext-8e33526418927b658ada.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp-9ef273050dc9238f7b7e.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_introspection_c-6ff578b6e2cd976a216f.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_introspection_c__pyext-e5e765df08ab3b432911.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp-0b7d4b7e3dc29537ac34.json",
+					"name" : "stm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_diff_drive_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_diff_drive_msgs_uninstall-860efce20a639c9382cf.json",
+					"name" : "stm32_diff_drive_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1e5fc457b07a9548d695.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs",
+		"source" : "/home/giang/ros2_myrobot/src/stm32_diff_drive_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

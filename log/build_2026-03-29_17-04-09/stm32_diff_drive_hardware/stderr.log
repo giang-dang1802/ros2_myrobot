@@ -1,0 +1,12 @@
+[01m[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type stm32_diff_drive_hardware::STM32DiffDriveHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:134:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  134 | turn_type STM32DiffDriveHardware::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type stm32_diff_drive_hardware::STM32DiffDriveHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:259:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMAX_RAD_S[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  259 |     constexpr float [01;35m[KMAX_RAD_S[m[K = 50.0;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:260:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMIN_RAD_S[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  260 |     constexpr float [01;35m[KMIN_RAD_S[m[K = -50.0;
+      |                     [01;35m[K^~~~~~~~~[m[K

@@ -1,0 +1,355 @@
+[0.572s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.573s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cec41069300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cec411e1f30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cec411e1f30>>)
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.036s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/giang/ros2_myrobot'
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['ignore', 'ignore_ament_install']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'ignore'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'ignore_ament_install'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['colcon_pkg']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'colcon_pkg'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['colcon_meta']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'colcon_meta'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['ros']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'ros'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['cmake', 'python']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'cmake'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'python'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extensions ['python_setup_py']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/image) by extension 'python_setup_py'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[2.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extensions ['ignore', 'ignore_ament_install']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extension 'ignore'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extension 'ignore_ament_install'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extensions ['colcon_pkg']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extension 'colcon_pkg'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extensions ['colcon_meta']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extension 'colcon_meta'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extensions ['ros']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_hardware) by extension 'ros'
+[2.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stm32_diff_drive_hardware' with type 'ros.ament_cmake' and name 'stm32_diff_drive_hardware'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extension 'ignore'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extension 'ignore_ament_install'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extensions ['colcon_pkg']
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extension 'colcon_pkg'
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extensions ['colcon_meta']
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extension 'colcon_meta'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extensions ['ros']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/stm32_diff_drive_msgs) by extension 'ros'
+[2.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stm32_diff_drive_msgs' with type 'ros.ament_cmake' and name 'stm32_diff_drive_msgs'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ignore_ament_install'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['colcon_pkg']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'colcon_pkg'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['colcon_meta']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'colcon_meta'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['ros']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ros'
+[2.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/twist_stamper' with type 'ros.ament_python' and name 'twist_stamper'
+[2.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.329s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/giang/ros2_demo/install
+[2.330s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/giang/Workspaces/ros2_cpp_ws/install
+[2.332s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/giang/ros2_ws/install
+[2.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/humble
+[2.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.624s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giang/ros2_myrobot/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giang/ros2_myrobot/install/my_bot', 'merge_install': False, 'path': '/home/giang/ros2_myrobot/src/my_bot', 'symlink_install': False, 'test_result_base': None}
+[2.625s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'cmake_args' from command line to 'None'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'cmake_target' from command line to 'None'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.626s] DEBUG:colcon.colcon_core.verb:Building package 'stm32_diff_drive_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs', 'merge_install': False, 'path': '/home/giang/ros2_myrobot/src/stm32_diff_drive_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_args' from command line to 'None'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_target' from command line to 'None'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_clean_cache' from command line to 'False'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_clean_first' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_force_configure' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'ament_cmake_args' from command line to 'None'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'catkin_cmake_args' from command line to 'None'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.628s] DEBUG:colcon.colcon_core.verb:Building package 'twist_stamper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giang/ros2_myrobot/build/twist_stamper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giang/ros2_myrobot/install/twist_stamper', 'merge_install': False, 'path': '/home/giang/ros2_myrobot/src/twist_stamper', 'symlink_install': False, 'test_result_base': None}
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'cmake_target' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[2.630s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[2.630s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[2.630s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[2.630s] Level 5:colcon.colcon_core.verb:set package 'stm32_diff_drive_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.630s] DEBUG:colcon.colcon_core.verb:Building package 'stm32_diff_drive_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware', 'merge_install': False, 'path': '/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware', 'symlink_install': False, 'test_result_base': None}
+[2.631s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.634s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giang/ros2_myrobot/src/stm32_diff_drive_msgs' with build type 'ament_cmake'
+[2.634s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giang/ros2_myrobot/src/stm32_diff_drive_msgs'
+[2.663s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.679s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giang/ros2_myrobot/src/my_bot' with build type 'ament_cmake'
+[2.680s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giang/ros2_myrobot/src/my_bot'
+[2.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.701s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giang/ros2_myrobot/src/twist_stamper' with build type 'ament_python'
+[2.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist_stamper', 'ament_prefix_path')
+[2.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.ps1'
+[2.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.sh'
+[2.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/giang/ros2_myrobot/src/stm32_diff_drive_msgs -DCMAKE_INSTALL_PREFIX=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs
+[2.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/giang/ros2_myrobot/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/giang/ros2_myrobot/install/my_bot
+[3.633s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giang/ros2_myrobot/src/twist_stamper'
+[3.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/src/twist_stamper': PYTHONPATH=/home/giang/ros2_myrobot/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/giang/ros2_myrobot/build/twist_stamper/build install --record /home/giang/ros2_myrobot/build/twist_stamper/install.log --single-version-externally-managed install_data
+[6.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/src/twist_stamper' returned '0': PYTHONPATH=/home/giang/ros2_myrobot/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/giang/ros2_myrobot/build/twist_stamper/build install --record /home/giang/ros2_myrobot/build/twist_stamper/install.log --single-version-externally-managed install_data
+[6.641s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/twist_stamper' for CMake module files
+[6.642s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/twist_stamper' for CMake config files
+[6.644s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/twist_stamper/lib'
+[6.644s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/twist_stamper/bin'
+[6.645s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/twist_stamper/lib/pkgconfig/twist_stamper.pc'
+[6.646s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages'
+[6.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist_stamper', 'pythonpath')
+[6.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/hook/pythonpath.ps1'
+[6.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/hook/pythonpath.dsv'
+[6.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/hook/pythonpath.sh'
+[6.652s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/twist_stamper/bin'
+[6.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(twist_stamper)
+[6.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/package.ps1'
+[6.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/package.dsv'
+[6.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/package.sh'
+[6.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/package.bash'
+[6.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/twist_stamper/share/twist_stamper/package.zsh'
+[6.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giang/ros2_myrobot/install/twist_stamper/share/colcon-core/packages/twist_stamper)
+[8.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/giang/ros2_myrobot/src/stm32_diff_drive_msgs -DCMAKE_INSTALL_PREFIX=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs
+[8.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs -- -j6 -l6
+[14.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/giang/ros2_myrobot/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/giang/ros2_myrobot/install/my_bot
+[14.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/giang/ros2_myrobot/build/my_bot -- -j6 -l6
+[14.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/giang/ros2_myrobot/build/my_bot -- -j6 -l6
+[14.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/giang/ros2_myrobot/build/my_bot
+[15.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[15.039s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot' for CMake module files
+[15.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/giang/ros2_myrobot/build/my_bot
+[15.042s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot' for CMake config files
+[15.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[15.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[15.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[15.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[15.059s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot/bin'
+[15.060s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot/lib/pkgconfig/my_bot.pc'
+[15.060s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot/lib/python3.10/site-packages'
+[15.061s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot/bin'
+[15.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.ps1'
+[15.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.dsv'
+[15.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.sh'
+[15.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.bash'
+[15.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.zsh'
+[15.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giang/ros2_myrobot/install/my_bot/share/colcon-core/packages/my_bot)
+[15.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[15.097s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot' for CMake module files
+[15.099s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot' for CMake config files
+[15.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[15.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[15.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[15.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[15.105s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot/bin'
+[15.105s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot/lib/pkgconfig/my_bot.pc'
+[15.105s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot/lib/python3.10/site-packages'
+[15.106s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/my_bot/bin'
+[15.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.ps1'
+[15.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.dsv'
+[15.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.sh'
+[15.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.bash'
+[15.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.zsh'
+[15.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giang/ros2_myrobot/install/my_bot/share/colcon-core/packages/my_bot)
+[18.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs -- -j6 -l6
+[18.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs
+[18.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm32_diff_drive_msgs)
+[18.879s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs' for CMake module files
+[18.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/giang/ros2_myrobot/build/stm32_diff_drive_msgs
+[18.882s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs' for CMake config files
+[18.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_diff_drive_msgs', 'cmake_prefix_path')
+[18.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/cmake_prefix_path.ps1'
+[18.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/cmake_prefix_path.dsv'
+[18.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/cmake_prefix_path.sh'
+[18.887s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib'
+[18.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_diff_drive_msgs', 'ld_library_path_lib')
+[18.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/ld_library_path_lib.ps1'
+[18.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/ld_library_path_lib.dsv'
+[18.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/ld_library_path_lib.sh'
+[18.892s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/bin'
+[18.892s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/pkgconfig/stm32_diff_drive_msgs.pc'
+[18.893s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/python3.10/site-packages'
+[18.894s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/bin'
+[18.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.ps1'
+[18.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.dsv'
+[18.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.sh'
+[18.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.bash'
+[18.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.zsh'
+[18.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/colcon-core/packages/stm32_diff_drive_msgs)
+[18.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm32_diff_drive_msgs)
+[18.904s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs' for CMake module files
+[18.906s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs' for CMake config files
+[18.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_diff_drive_msgs', 'cmake_prefix_path')
+[18.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/cmake_prefix_path.ps1'
+[18.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/cmake_prefix_path.dsv'
+[18.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/cmake_prefix_path.sh'
+[18.914s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib'
+[18.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_diff_drive_msgs', 'ld_library_path_lib')
+[18.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/ld_library_path_lib.ps1'
+[18.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/ld_library_path_lib.dsv'
+[18.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/hook/ld_library_path_lib.sh'
+[18.919s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/bin'
+[18.919s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/pkgconfig/stm32_diff_drive_msgs.pc'
+[18.920s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/python3.10/site-packages'
+[18.921s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/bin'
+[18.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.ps1'
+[18.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.dsv'
+[18.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.sh'
+[18.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.bash'
+[18.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.zsh'
+[18.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/colcon-core/packages/stm32_diff_drive_msgs)
+[18.932s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware' with build type 'ament_cmake'
+[18.932s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware'
+[18.932s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.932s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware': AMENT_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giang/ros2_myrobot/src/stm32_diff_drive_hardware -DCMAKE_INSTALL_PREFIX=/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware
+[24.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware' returned '0': AMENT_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giang/ros2_myrobot/src/stm32_diff_drive_hardware -DCMAKE_INSTALL_PREFIX=/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware
+[24.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware': AMENT_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giang/ros2_myrobot/build/stm32_diff_drive_hardware -- -j6 -l6
+[47.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware' returned '0': AMENT_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giang/ros2_myrobot/build/stm32_diff_drive_hardware -- -j6 -l6
+[47.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware': AMENT_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giang/ros2_myrobot/build/stm32_diff_drive_hardware
+[47.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm32_diff_drive_hardware)
+[47.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware' returned '0': AMENT_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giang/ros2_myrobot/build/stm32_diff_drive_hardware
+[47.482s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware' for CMake module files
+[47.484s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware' for CMake config files
+[47.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_diff_drive_hardware', 'cmake_prefix_path')
+[47.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/cmake_prefix_path.ps1'
+[47.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/cmake_prefix_path.dsv'
+[47.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/cmake_prefix_path.sh'
+[47.490s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib'
+[47.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_diff_drive_hardware', 'ld_library_path_lib')
+[47.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/ld_library_path_lib.ps1'
+[47.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/ld_library_path_lib.dsv'
+[47.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/ld_library_path_lib.sh'
+[47.494s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/bin'
+[47.495s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib/pkgconfig/stm32_diff_drive_hardware.pc'
+[47.495s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib/python3.10/site-packages'
+[47.496s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/bin'
+[47.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.ps1'
+[47.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.dsv'
+[47.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.sh'
+[47.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.bash'
+[47.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.zsh'
+[47.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/colcon-core/packages/stm32_diff_drive_hardware)
+[47.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stm32_diff_drive_hardware)
+[47.516s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware' for CMake module files
+[47.518s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware' for CMake config files
+[47.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_diff_drive_hardware', 'cmake_prefix_path')
+[47.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/cmake_prefix_path.ps1'
+[47.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/cmake_prefix_path.dsv'
+[47.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/cmake_prefix_path.sh'
+[47.534s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib'
+[47.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('stm32_diff_drive_hardware', 'ld_library_path_lib')
+[47.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/ld_library_path_lib.ps1'
+[47.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/ld_library_path_lib.dsv'
+[47.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/hook/ld_library_path_lib.sh'
+[47.546s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/bin'
+[47.546s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib/pkgconfig/stm32_diff_drive_hardware.pc'
+[47.547s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib/python3.10/site-packages'
+[47.548s] Level 1:colcon.colcon_core.environment:checking '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/bin'
+[47.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.ps1'
+[47.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.dsv'
+[47.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.sh'
+[47.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.bash'
+[47.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.zsh'
+[47.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/colcon-core/packages/stm32_diff_drive_hardware)
+[47.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[47.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[47.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[47.565s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[47.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[47.632s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[47.633s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.029s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giang/ros2_myrobot/install/local_setup.ps1'
+[48.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giang/ros2_myrobot/install/_local_setup_util_ps1.py'
+[48.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giang/ros2_myrobot/install/setup.ps1'
+[48.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giang/ros2_myrobot/install/local_setup.sh'
+[48.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giang/ros2_myrobot/install/_local_setup_util_sh.py'
+[48.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giang/ros2_myrobot/install/setup.sh'
+[48.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giang/ros2_myrobot/install/local_setup.bash'
+[48.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giang/ros2_myrobot/install/setup.bash'
+[48.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giang/ros2_myrobot/install/local_setup.zsh'
+[48.062s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giang/ros2_myrobot/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/giang/ros2_myrobot/src/my_bot/launch/rsp.launch_v2.py

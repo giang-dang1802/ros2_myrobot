@@ -1,0 +1,1 @@
+/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

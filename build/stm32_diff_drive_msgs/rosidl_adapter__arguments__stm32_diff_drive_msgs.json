@@ -1,0 +1,8 @@
+{
+  "package_name": "stm32_diff_drive_msgs",
+  "non_idl_tuples": [
+    "/home/giang/ros2_myrobot/src/stm32_diff_drive_msgs:msg/MotorCommand.msg",
+    "/home/giang/ros2_myrobot/src/stm32_diff_drive_msgs:msg/MotorVels.msg",
+    "/home/giang/ros2_myrobot/src/stm32_diff_drive_msgs:msg/EncoderVals.msg"
+  ]
+}

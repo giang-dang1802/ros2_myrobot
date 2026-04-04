@@ -1,0 +1,658 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000401] (stm32_diff_drive_msgs) JobQueued: {'identifier': 'stm32_diff_drive_msgs', 'dependencies': OrderedDict()}
+[0.000449] (twist_stamper) JobQueued: {'identifier': 'twist_stamper', 'dependencies': OrderedDict()}
+[0.000487] (stm32_diff_drive_hardware) JobQueued: {'identifier': 'stm32_diff_drive_hardware', 'dependencies': OrderedDict([('stm32_diff_drive_msgs', '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs')])}
+[0.000537] (stm32_diff_drive_msgs) JobStarted: {'identifier': 'stm32_diff_drive_msgs'}
+[0.048333] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.065318] (twist_stamper) JobStarted: {'identifier': 'twist_stamper'}
+[0.096773] (stm32_diff_drive_msgs) JobProgress: {'identifier': 'stm32_diff_drive_msgs', 'progress': 'cmake'}
+[0.097663] (-) TimerEvent: {}
+[0.106085] (stm32_diff_drive_msgs) JobProgress: {'identifier': 'stm32_diff_drive_msgs', 'progress': 'build'}
+[0.106177] (stm32_diff_drive_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs', '--', '-j6', '-l6'], 'cwd': '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giang'), ('OLDPWD', '/home/giang'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1529'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2281'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/giang/ros2_myrobot/install:/home/giang/ros2_demo/install:/home/giang/Workspaces/ros2_cpp_ws/install:/home/giang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giang'), ('JOURNAL_STREAM', '8:25878'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/giang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giang-computer:@/tmp/.ICE-unix/1678,unix/giang-computer:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '54600a6b32c94e00b92e67dbff5d729d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MYL0M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:b5b8214e-e1fa-42f7-939f-af5afdf8c2a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/giang/ros2_myrobot/build/twist_stamper:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:/home/giang/ros2_demo/install/autonomous_tb3/lib/python3.10/site-packages:/home/giang/ros2_ws/build/my_robot_controller:/home/giang/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.127695] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.132529] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.139742] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giang/ros2_myrobot/build/my_bot', '--', '-j6', '-l6'], 'cwd': '/home/giang/ros2_myrobot/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giang'), ('OLDPWD', '/home/giang'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1529'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2281'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/giang/ros2_myrobot/install:/home/giang/ros2_demo/install:/home/giang/Workspaces/ros2_cpp_ws/install:/home/giang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giang'), ('JOURNAL_STREAM', '8:25878'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/giang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giang-computer:@/tmp/.ICE-unix/1678,unix/giang-computer:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '54600a6b32c94e00b92e67dbff5d729d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MYL0M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:b5b8214e-e1fa-42f7-939f-af5afdf8c2a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giang/ros2_myrobot/build/my_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/giang/ros2_myrobot/build/twist_stamper:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:/home/giang/ros2_demo/install/autonomous_tb3/lib/python3.10/site-packages:/home/giang/ros2_ws/build/my_robot_controller:/home/giang/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.198111] (-) TimerEvent: {}
+[0.298784] (-) TimerEvent: {}
+[0.399900] (-) TimerEvent: {}
+[0.502988] (-) TimerEvent: {}
+[0.555642] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[  2%] Built target stm32_diff_drive_msgs__cpp\n'}
+[0.561652] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 12%] Built target stm32_diff_drive_msgs__rosidl_generator_c\n'}
+[0.584726] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_stm32_diff_drive_msgs\n'}
+[0.603796] (-) TimerEvent: {}
+[0.652140] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 23%] Built target stm32_diff_drive_msgs__rosidl_typesupport_introspection_c\n'}
+[0.657959] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 34%] Built target stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.677744] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 44%] Built target stm32_diff_drive_msgs__rosidl_typesupport_cpp\n'}
+[0.682475] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 55%] Built target stm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.683903] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 65%] Built target stm32_diff_drive_msgs__rosidl_typesupport_c\n'}
+[0.687646] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 76%] Built target stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.705069] (-) TimerEvent: {}
+[0.733879] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 76%] Built target stm32_diff_drive_msgs\n'}
+[0.789290] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 78%] Built target stm32_diff_drive_msgs__py\n'}
+[0.805486] (-) TimerEvent: {}
+[0.865709] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 87%] Built target stm32_diff_drive_msgs__rosidl_generator_py\n'}
+[0.908020] (-) TimerEvent: {}
+[0.970471] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 91%] Built target stm32_diff_drive_msgs__rosidl_typesupport_c__pyext\n'}
+[0.971790] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[ 95%] Built target stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.977722] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[100%] Built target stm32_diff_drive_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.008355] (-) TimerEvent: {}
+[1.072524] (my_bot) CommandEnded: {'returncode': 0}
+[1.077889] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[1.105388] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/giang/ros2_myrobot/build/my_bot'], 'cwd': '/home/giang/ros2_myrobot/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giang'), ('OLDPWD', '/home/giang'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1529'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2281'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/giang/ros2_myrobot/install:/home/giang/ros2_demo/install:/home/giang/Workspaces/ros2_cpp_ws/install:/home/giang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giang'), ('JOURNAL_STREAM', '8:25878'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/giang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giang-computer:@/tmp/.ICE-unix/1678,unix/giang-computer:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '54600a6b32c94e00b92e67dbff5d729d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MYL0M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:b5b8214e-e1fa-42f7-939f-af5afdf8c2a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giang/ros2_myrobot/build/my_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/giang/ros2_myrobot/build/twist_stamper:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:/home/giang/ros2_demo/install/autonomous_tb3/lib/python3.10/site-packages:/home/giang/ros2_ws/build/my_robot_controller:/home/giang/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[1.110159] (-) TimerEvent: {}
+[1.122833] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.126445] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.134775] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/bringup.launch.py\n'}
+[1.136399] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[1.137226] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/mission_node.py\n'}
+[1.141101] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/online_async_launch.py\n'}
+[1.142074] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[1.143009] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/rsp.launch_v2.py\n'}
+[1.145917] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/launch/rsp.launch_v3.py\n'}
+[1.148311] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[1.153203] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[1.154618] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/base_link1.STL\n'}
+[1.158243] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linkbanhphai.STL\n'}
+[1.158679] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linkbanhtrai.STL\n'}
+[1.158867] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linklidar.STL\n'}
+[1.159028] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linkphusau.STL\n'}
+[1.159171] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/meshes/linkphutruoc.STL\n'}
+[1.162016] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c1_save.pgm\n'}
+[1.165049] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c1_save.yaml\n'}
+[1.165775] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c1_serialize.data\n'}
+[1.167522] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c1_serialize.posegraph\n'}
+[1.168888] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c205_save.pgm\n'}
+[1.169996] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c205_save.yaml\n'}
+[1.170204] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c205_serialize.data\n'}
+[1.171594] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/c205_serialize.posegraph\n'}
+[1.174130] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[1.174608] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[1.175387] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[1.176953] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[1.178478] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[1.181362] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/rviz/my_bot.rviz\n'}
+[1.181654] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/rviz/mybot.rviz\n'}
+[1.181823] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[1.183546] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[1.185631] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[1.187020] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[1.187886] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/environment/path.sh\n'}
+[1.190377] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[1.191144] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/local_setup.bash\n'}
+[1.194003] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/local_setup.sh\n'}
+[1.194838] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[1.196192] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[1.196814] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.dsv\n'}
+[1.213507] (-) TimerEvent: {}
+[1.226131] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[1.226558] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[1.231092] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[1.231604] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/my_bot/share/my_bot/package.xml\n'}
+[1.238985] (my_bot) CommandEnded: {'returncode': 0}
+[1.313727] (-) TimerEvent: {}
+[1.328988] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[1.408052] (stm32_diff_drive_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.410436] (stm32_diff_drive_msgs) StdoutLine: {'line': b'writing stm32_diff_drive_msgs.egg-info/PKG-INFO\n'}
+[1.412185] (stm32_diff_drive_msgs) StdoutLine: {'line': b'writing dependency_links to stm32_diff_drive_msgs.egg-info/dependency_links.txt\n'}
+[1.412948] (stm32_diff_drive_msgs) StdoutLine: {'line': b'writing top-level names to stm32_diff_drive_msgs.egg-info/top_level.txt\n'}
+[1.414366] (-) TimerEvent: {}
+[1.422988] (stm32_diff_drive_msgs) StdoutLine: {'line': b"reading manifest file 'stm32_diff_drive_msgs.egg-info/SOURCES.txt'\n"}
+[1.429440] (stm32_diff_drive_msgs) StdoutLine: {'line': b"writing manifest file 'stm32_diff_drive_msgs.egg-info/SOURCES.txt'\n"}
+[1.496620] (stm32_diff_drive_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_stm32_diff_drive_msgs_egg\n'}
+[1.514634] (-) TimerEvent: {}
+[1.527633] (stm32_diff_drive_msgs) CommandEnded: {'returncode': 0}
+[1.530021] (stm32_diff_drive_msgs) JobProgress: {'identifier': 'stm32_diff_drive_msgs', 'progress': 'install'}
+[1.535803] (stm32_diff_drive_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs'], 'cwd': '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giang'), ('OLDPWD', '/home/giang'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1529'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2281'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/giang/ros2_myrobot/install:/home/giang/ros2_demo/install:/home/giang/Workspaces/ros2_cpp_ws/install:/home/giang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giang'), ('JOURNAL_STREAM', '8:25878'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/giang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giang-computer:@/tmp/.ICE-unix/1678,unix/giang-computer:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '54600a6b32c94e00b92e67dbff5d729d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MYL0M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:b5b8214e-e1fa-42f7-939f-af5afdf8c2a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giang/ros2_myrobot/build/stm32_diff_drive_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/giang/ros2_myrobot/build/twist_stamper:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:/home/giang/ros2_demo/install/autonomous_tb3/lib/python3.10/site-packages:/home/giang/ros2_ws/build/my_robot_controller:/home/giang/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[1.556493] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.558814] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.560884] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/ament_index/resource_index/rosidl_interfaces/stm32_diff_drive_msgs\n'}
+[1.564481] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__functions.h\n'}
+[1.565076] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__struct.h\n'}
+[1.565229] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[1.565295] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__functions.h\n'}
+[1.565339] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__struct.h\n'}
+[1.567311] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.h\n'}
+[1.567654] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__functions.h\n'}
+[1.567903] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__struct.h\n'}
+[1.568985] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.h\n'}
+[1.569110] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/encoder_vals.h\n'}
+[1.569322] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/motor_command.h\n'}
+[1.569497] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/motor_vels.h\n'}
+[1.569760] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.571595] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/library_path.sh\n'}
+[1.572603] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/library_path.dsv\n'}
+[1.575742] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[1.576574] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.577066] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[1.579079] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.582646] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[1.586376] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[1.586960] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[1.587120] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.590654] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[1.591803] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[1.592148] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[1.592326] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[1.592479] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__builder.hpp\n'}
+[1.593184] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__struct.hpp\n'}
+[1.593653] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__traits.hpp\n'}
+[1.594150] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[1.594522] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[1.594699] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[1.595137] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[1.595640] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[1.595789] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/encoder_vals.hpp\n'}
+[1.595877] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/motor_command.hpp\n'}
+[1.596033] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/motor_vels.hpp\n'}
+[1.596254] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.600002] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.600386] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.600578] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.600845] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.604170] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.604494] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.604664] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/include/stm32_diff_drive_msgs/stm32_diff_drive_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.604892] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/pythonpath.sh\n'}
+[1.605300] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/pythonpath.dsv\n'}
+[1.605521] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.605700] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.607766] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.609497] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.610174] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/__init__.py\n'}
+[1.612113] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.612613] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.614095] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/_stm32_diff_drive_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.615115] (-) TimerEvent: {}
+[1.615777] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/libstm32_diff_drive_msgs__rosidl_generator_py.so\n'}
+[1.616042] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/__init__.py\n'}
+[1.616328] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_encoder_vals.py\n'}
+[1.616550] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_encoder_vals_s.c\n'}
+[1.616707] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_command.py\n'}
+[1.616859] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_command_s.c\n'}
+[1.617123] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_vels.py\n'}
+[1.617373] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg/_motor_vels_s.c\n'}
+[1.617502] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.617775] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.618202] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.619266] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.620238] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.621449] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/stm32_diff_drive_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.622568] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/MotorCommand.idl\n'}
+[1.623723] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/MotorVels.idl\n'}
+[1.625124] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/EncoderVals.idl\n'}
+[1.626279] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/MotorCommand.msg\n'}
+[1.626762] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/MotorVels.msg\n'}
+[1.627610] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/msg/EncoderVals.msg\n'}
+[1.628834] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/ament_index/resource_index/package_run_dependencies/stm32_diff_drive_msgs\n'}
+[1.629407] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/ament_index/resource_index/parent_prefix_path/stm32_diff_drive_msgs\n'}
+[1.631169] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/ament_prefix_path.sh\n'}
+[1.631549] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/ament_prefix_path.dsv\n'}
+[1.633061] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/path.sh\n'}
+[1.634168] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/environment/path.dsv\n'}
+[1.635350] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/local_setup.bash\n'}
+[1.636771] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/local_setup.sh\n'}
+[1.637637] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/local_setup.zsh\n'}
+[1.638343] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/local_setup.dsv\n'}
+[1.639151] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.dsv\n'}
+[1.668940] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/ament_index/resource_index/packages/stm32_diff_drive_msgs\n'}
+[1.671537] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.672237] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.673439] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.673838] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.674411] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.675396] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.677552] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.677820] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgsConfig.cmake\n'}
+[1.678321] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgsConfig-version.cmake\n'}
+[1.679243] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/package.xml\n'}
+[1.682094] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_generator_c.so\n'}
+[1.683015] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.685909] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.688196] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_c.so\n'}
+[1.689433] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.692160] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.695353] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_typesupport_cpp.so\n'}
+[1.715846] (-) TimerEvent: {}
+[1.798185] (stm32_diff_drive_msgs) StdoutLine: {'line': b"Listing '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs'...\n"}
+[1.798800] (stm32_diff_drive_msgs) StdoutLine: {'line': b"Listing '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages/stm32_diff_drive_msgs/msg'...\n"}
+[1.812282] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib/libstm32_diff_drive_msgs__rosidl_generator_py.so\n'}
+[1.815333] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_cExport.cmake\n'}
+[1.815677] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.815936] (-) TimerEvent: {}
+[1.820604] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.821002] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.822278] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.822585] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.824158] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.824542] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.827127] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.827828] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.828325] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.830344] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.831252] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.832674] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.832965] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/stm32_diff_drive_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.835635] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.835855] (stm32_diff_drive_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/share/stm32_diff_drive_msgs/cmake/export_stm32_diff_drive_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.841877] (stm32_diff_drive_msgs) CommandEnded: {'returncode': 0}
+[1.911838] (stm32_diff_drive_msgs) JobEnded: {'identifier': 'stm32_diff_drive_msgs', 'rc': 0}
+[1.915749] (stm32_diff_drive_hardware) JobStarted: {'identifier': 'stm32_diff_drive_hardware'}
+[1.916477] (-) TimerEvent: {}
+[1.948543] (stm32_diff_drive_hardware) JobProgress: {'identifier': 'stm32_diff_drive_hardware', 'progress': 'cmake'}
+[1.952683] (stm32_diff_drive_hardware) JobProgress: {'identifier': 'stm32_diff_drive_hardware', 'progress': 'build'}
+[1.955591] (stm32_diff_drive_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware', '--', '-j6', '-l6'], 'cwd': '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giang'), ('OLDPWD', '/home/giang'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1529'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2281'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/giang/ros2_myrobot/install:/home/giang/ros2_demo/install:/home/giang/Workspaces/ros2_cpp_ws/install:/home/giang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giang'), ('JOURNAL_STREAM', '8:25878'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/giang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giang-computer:@/tmp/.ICE-unix/1678,unix/giang-computer:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '54600a6b32c94e00b92e67dbff5d729d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MYL0M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:b5b8214e-e1fa-42f7-939f-af5afdf8c2a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/giang/ros2_myrobot/build/twist_stamper:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:/home/giang/ros2_demo/install/autonomous_tb3/lib/python3.10/site-packages:/home/giang/ros2_ws/build/my_robot_controller:/home/giang/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[2.017025] (-) TimerEvent: {}
+[2.106568] (stm32_diff_drive_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stm32_diff_drive_hardware\x1b[0m\n'}
+[2.117632] (-) TimerEvent: {}
+[2.218478] (-) TimerEvent: {}
+[2.229880] (stm32_diff_drive_hardware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/stm32_diff_drive_hardware.dir/src/diff_drive_hardware.cpp.o\x1b[0m\n'}
+[2.319520] (-) TimerEvent: {}
+[2.420130] (-) TimerEvent: {}
+[2.522212] (-) TimerEvent: {}
+[2.624096] (-) TimerEvent: {}
+[2.727054] (-) TimerEvent: {}
+[2.732961] (twist_stamper) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/giang/ros2_myrobot/build/twist_stamper/build', '--no-deps', 'symlink_data'], 'cwd': '/home/giang/ros2_myrobot/build/twist_stamper', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'giang', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/giang', 'OLDPWD': '/home/giang', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'vi_VN', 'MANAGERPID': '1529', 'SYSTEMD_EXEC_PID': '1707', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2281', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/giang/ros2_myrobot/install:/home/giang/ros2_demo/install:/home/giang/Workspaces/ros2_cpp_ws/install:/home/giang/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'giang', 'JOURNAL_STREAM': '8:25878', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'giang', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/giang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/giang-computer:@/tmp/.ICE-unix/1678,unix/giang-computer:/tmp/.ICE-unix/1678', 'INVOCATION_ID': '54600a6b32c94e00b92e67dbff5d729d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'vi_VN', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'vi_VN', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MYL0M3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'TERMINATOR_UUID': 'urn:uuid:b5b8214e-e1fa-42f7-939f-af5afdf8c2a9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'vi_VN', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/giang/ros2_myrobot/build/twist_stamper', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/giang/ros2_myrobot/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:/home/giang/ros2_myrobot/build/twist_stamper:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:/home/giang/ros2_demo/install/autonomous_tb3/lib/python3.10/site-packages:/home/giang/ros2_ws/build/my_robot_controller:/home/giang/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg'}, 'shell': False}
+[2.828155] (-) TimerEvent: {}
+[2.930454] (-) TimerEvent: {}
+[3.031492] (-) TimerEvent: {}
+[3.132886] (-) TimerEvent: {}
+[3.233713] (-) TimerEvent: {}
+[3.334717] (-) TimerEvent: {}
+[3.438921] (-) TimerEvent: {}
+[3.503386] (twist_stamper) StdoutLine: {'line': b'running develop\n'}
+[3.539516] (-) TimerEvent: {}
+[3.640663] (-) TimerEvent: {}
+[3.741336] (-) TimerEvent: {}
+[3.841857] (-) TimerEvent: {}
+[3.945394] (-) TimerEvent: {}
+[4.008771] (twist_stamper) StdoutLine: {'line': b'running egg_info\n'}
+[4.009159] (twist_stamper) StdoutLine: {'line': b'writing twist_stamper.egg-info/PKG-INFO\n'}
+[4.009756] (twist_stamper) StdoutLine: {'line': b'writing dependency_links to twist_stamper.egg-info/dependency_links.txt\n'}
+[4.010424] (twist_stamper) StdoutLine: {'line': b'writing entry points to twist_stamper.egg-info/entry_points.txt\n'}
+[4.010999] (twist_stamper) StdoutLine: {'line': b'writing requirements to twist_stamper.egg-info/requires.txt\n'}
+[4.011707] (twist_stamper) StdoutLine: {'line': b'writing top-level names to twist_stamper.egg-info/top_level.txt\n'}
+[4.015650] (twist_stamper) StdoutLine: {'line': b"reading manifest file 'twist_stamper.egg-info/SOURCES.txt'\n"}
+[4.019211] (twist_stamper) StdoutLine: {'line': b"writing manifest file 'twist_stamper.egg-info/SOURCES.txt'\n"}
+[4.022665] (twist_stamper) StdoutLine: {'line': b'running build_ext\n'}
+[4.023324] (twist_stamper) StdoutLine: {'line': b'Creating /home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages/twist-stamper.egg-link (link to .)\n'}
+[4.025614] (twist_stamper) StdoutLine: {'line': b'Installing twist_stamper script to /home/giang/ros2_myrobot/install/twist_stamper/lib/twist_stamper\n'}
+[4.026691] (twist_stamper) StdoutLine: {'line': b'\n'}
+[4.026897] (twist_stamper) StdoutLine: {'line': b'Installed /home/giang/ros2_myrobot/build/twist_stamper\n'}
+[4.026991] (twist_stamper) StdoutLine: {'line': b'running symlink_data\n'}
+[4.045698] (-) TimerEvent: {}
+[4.088071] (twist_stamper) CommandEnded: {'returncode': 0}
+[4.127535] (twist_stamper) JobEnded: {'identifier': 'twist_stamper', 'rc': 0}
+[4.146486] (-) TimerEvent: {}
+[4.247501] (-) TimerEvent: {}
+[4.348839] (-) TimerEvent: {}
+[4.449868] (-) TimerEvent: {}
+[4.551240] (-) TimerEvent: {}
+[4.652474] (-) TimerEvent: {}
+[4.753130] (-) TimerEvent: {}
+[4.854584] (-) TimerEvent: {}
+[4.955355] (-) TimerEvent: {}
+[5.058137] (-) TimerEvent: {}
+[5.162595] (-) TimerEvent: {}
+[5.266399] (-) TimerEvent: {}
+[5.367272] (-) TimerEvent: {}
+[5.468390] (-) TimerEvent: {}
+[5.570007] (-) TimerEvent: {}
+[5.671647] (-) TimerEvent: {}
+[5.774243] (-) TimerEvent: {}
+[5.875017] (-) TimerEvent: {}
+[5.976613] (-) TimerEvent: {}
+[6.077351] (-) TimerEvent: {}
+[6.179320] (-) TimerEvent: {}
+[6.280979] (-) TimerEvent: {}
+[6.384405] (-) TimerEvent: {}
+[6.484952] (-) TimerEvent: {}
+[6.586066] (-) TimerEvent: {}
+[6.687481] (-) TimerEvent: {}
+[6.789270] (-) TimerEvent: {}
+[6.890506] (-) TimerEvent: {}
+[6.991271] (-) TimerEvent: {}
+[7.092610] (-) TimerEvent: {}
+[7.193504] (-) TimerEvent: {}
+[7.294274] (-) TimerEvent: {}
+[7.395202] (-) TimerEvent: {}
+[7.495894] (-) TimerEvent: {}
+[7.596482] (-) TimerEvent: {}
+[7.701999] (-) TimerEvent: {}
+[7.802952] (-) TimerEvent: {}
+[7.905090] (-) TimerEvent: {}
+[8.006529] (-) TimerEvent: {}
+[8.107588] (-) TimerEvent: {}
+[8.209057] (-) TimerEvent: {}
+[8.310550] (-) TimerEvent: {}
+[8.416371] (-) TimerEvent: {}
+[8.517290] (-) TimerEvent: {}
+[8.617903] (-) TimerEvent: {}
+[8.719131] (-) TimerEvent: {}
+[8.820318] (-) TimerEvent: {}
+[8.922330] (-) TimerEvent: {}
+[9.023111] (-) TimerEvent: {}
+[9.123900] (-) TimerEvent: {}
+[9.225042] (-) TimerEvent: {}
+[9.326560] (-) TimerEvent: {}
+[9.428554] (-) TimerEvent: {}
+[9.530263] (-) TimerEvent: {}
+[9.631429] (-) TimerEvent: {}
+[9.733141] (-) TimerEvent: {}
+[9.834266] (-) TimerEvent: {}
+[9.935272] (-) TimerEvent: {}
+[10.036336] (-) TimerEvent: {}
+[10.137984] (-) TimerEvent: {}
+[10.239029] (-) TimerEvent: {}
+[10.339891] (-) TimerEvent: {}
+[10.441509] (-) TimerEvent: {}
+[10.543239] (-) TimerEvent: {}
+[10.644127] (-) TimerEvent: {}
+[10.747997] (-) TimerEvent: {}
+[10.850857] (-) TimerEvent: {}
+[10.951718] (-) TimerEvent: {}
+[11.053723] (-) TimerEvent: {}
+[11.155567] (-) TimerEvent: {}
+[11.257300] (-) TimerEvent: {}
+[11.359812] (-) TimerEvent: {}
+[11.462025] (-) TimerEvent: {}
+[11.564043] (-) TimerEvent: {}
+[11.665587] (-) TimerEvent: {}
+[11.766702] (-) TimerEvent: {}
+[11.868385] (-) TimerEvent: {}
+[11.969927] (-) TimerEvent: {}
+[12.072059] (-) TimerEvent: {}
+[12.173835] (-) TimerEvent: {}
+[12.275710] (-) TimerEvent: {}
+[12.376414] (-) TimerEvent: {}
+[12.477789] (-) TimerEvent: {}
+[12.580642] (-) TimerEvent: {}
+[12.684085] (-) TimerEvent: {}
+[12.785079] (-) TimerEvent: {}
+[12.886795] (-) TimerEvent: {}
+[12.988426] (-) TimerEvent: {}
+[13.089350] (-) TimerEvent: {}
+[13.191186] (-) TimerEvent: {}
+[13.292351] (-) TimerEvent: {}
+[13.395213] (-) TimerEvent: {}
+[13.497333] (-) TimerEvent: {}
+[13.598147] (-) TimerEvent: {}
+[13.699431] (-) TimerEvent: {}
+[13.800296] (-) TimerEvent: {}
+[13.902101] (-) TimerEvent: {}
+[14.003277] (-) TimerEvent: {}
+[14.103995] (-) TimerEvent: {}
+[14.204984] (-) TimerEvent: {}
+[14.305852] (-) TimerEvent: {}
+[14.408823] (-) TimerEvent: {}
+[14.509986] (-) TimerEvent: {}
+[14.611205] (-) TimerEvent: {}
+[14.712472] (-) TimerEvent: {}
+[14.813682] (-) TimerEvent: {}
+[14.914424] (-) TimerEvent: {}
+[15.015061] (-) TimerEvent: {}
+[15.101168] (stm32_diff_drive_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type stm32_diff_drive_hardware::STM32DiffDriveHardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.101775] (stm32_diff_drive_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:134:114:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.102395] (stm32_diff_drive_hardware) StderrLine: {'line': b'  134 | dware::read(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[15.102591] (stm32_diff_drive_hardware) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[15.102751] (stm32_diff_drive_hardware) StderrLine: {'line': b'\n'}
+[15.115545] (-) TimerEvent: {}
+[15.117167] (stm32_diff_drive_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type stm32_diff_drive_hardware::STM32DiffDriveHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.117542] (stm32_diff_drive_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:259:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KMAX_RAD_S\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.117741] (stm32_diff_drive_hardware) StderrLine: {'line': b'  259 |     constexpr float \x1b[01;35m\x1b[KMAX_RAD_S\x1b[m\x1b[K = 50.0;\n'}
+[15.117886] (stm32_diff_drive_hardware) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.118027] (stm32_diff_drive_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giang/ros2_myrobot/src/stm32_diff_drive_hardware/src/diff_drive_hardware.cpp:260:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KMIN_RAD_S\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.118175] (stm32_diff_drive_hardware) StderrLine: {'line': b'  260 |     constexpr float \x1b[01;35m\x1b[KMIN_RAD_S\x1b[m\x1b[K = -50.0;\n'}
+[15.118515] (stm32_diff_drive_hardware) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.216090] (-) TimerEvent: {}
+[15.318040] (-) TimerEvent: {}
+[15.418863] (-) TimerEvent: {}
+[15.520391] (-) TimerEvent: {}
+[15.621410] (-) TimerEvent: {}
+[15.726850] (-) TimerEvent: {}
+[15.831487] (-) TimerEvent: {}
+[15.932225] (-) TimerEvent: {}
+[16.033362] (-) TimerEvent: {}
+[16.134061] (-) TimerEvent: {}
+[16.236717] (-) TimerEvent: {}
+[16.338399] (-) TimerEvent: {}
+[16.439492] (-) TimerEvent: {}
+[16.540465] (-) TimerEvent: {}
+[16.642363] (-) TimerEvent: {}
+[16.743720] (-) TimerEvent: {}
+[16.845197] (-) TimerEvent: {}
+[16.946006] (-) TimerEvent: {}
+[17.047341] (-) TimerEvent: {}
+[17.148199] (-) TimerEvent: {}
+[17.249693] (-) TimerEvent: {}
+[17.352290] (-) TimerEvent: {}
+[17.454058] (-) TimerEvent: {}
+[17.555450] (-) TimerEvent: {}
+[17.656610] (-) TimerEvent: {}
+[17.758084] (-) TimerEvent: {}
+[17.859430] (-) TimerEvent: {}
+[17.961123] (-) TimerEvent: {}
+[18.064352] (-) TimerEvent: {}
+[18.166543] (-) TimerEvent: {}
+[18.270427] (-) TimerEvent: {}
+[18.371443] (-) TimerEvent: {}
+[18.472177] (-) TimerEvent: {}
+[18.572896] (-) TimerEvent: {}
+[18.673663] (-) TimerEvent: {}
+[18.776653] (-) TimerEvent: {}
+[18.877817] (-) TimerEvent: {}
+[18.978424] (-) TimerEvent: {}
+[19.079227] (-) TimerEvent: {}
+[19.180406] (-) TimerEvent: {}
+[19.281925] (-) TimerEvent: {}
+[19.382777] (-) TimerEvent: {}
+[19.483562] (-) TimerEvent: {}
+[19.585010] (-) TimerEvent: {}
+[19.685899] (-) TimerEvent: {}
+[19.786579] (-) TimerEvent: {}
+[19.888018] (-) TimerEvent: {}
+[19.990591] (-) TimerEvent: {}
+[20.094175] (-) TimerEvent: {}
+[20.195263] (-) TimerEvent: {}
+[20.298050] (-) TimerEvent: {}
+[20.400867] (-) TimerEvent: {}
+[20.501458] (-) TimerEvent: {}
+[20.602536] (-) TimerEvent: {}
+[20.703815] (-) TimerEvent: {}
+[20.805100] (-) TimerEvent: {}
+[20.908014] (-) TimerEvent: {}
+[21.008796] (-) TimerEvent: {}
+[21.109540] (-) TimerEvent: {}
+[21.210530] (-) TimerEvent: {}
+[21.311697] (-) TimerEvent: {}
+[21.413098] (-) TimerEvent: {}
+[21.514530] (-) TimerEvent: {}
+[21.615496] (-) TimerEvent: {}
+[21.717402] (-) TimerEvent: {}
+[21.818281] (-) TimerEvent: {}
+[21.921865] (-) TimerEvent: {}
+[22.027219] (-) TimerEvent: {}
+[22.128167] (-) TimerEvent: {}
+[22.229584] (-) TimerEvent: {}
+[22.331532] (-) TimerEvent: {}
+[22.432888] (-) TimerEvent: {}
+[22.534015] (-) TimerEvent: {}
+[22.634948] (-) TimerEvent: {}
+[22.735942] (-) TimerEvent: {}
+[22.837332] (-) TimerEvent: {}
+[22.938896] (-) TimerEvent: {}
+[23.041004] (-) TimerEvent: {}
+[23.142230] (-) TimerEvent: {}
+[23.243220] (-) TimerEvent: {}
+[23.344453] (-) TimerEvent: {}
+[23.446235] (-) TimerEvent: {}
+[23.547045] (-) TimerEvent: {}
+[23.648057] (-) TimerEvent: {}
+[23.748942] (-) TimerEvent: {}
+[23.849898] (-) TimerEvent: {}
+[23.950856] (-) TimerEvent: {}
+[24.051426] (-) TimerEvent: {}
+[24.154031] (-) TimerEvent: {}
+[24.256697] (-) TimerEvent: {}
+[24.357638] (-) TimerEvent: {}
+[24.458481] (-) TimerEvent: {}
+[24.560631] (-) TimerEvent: {}
+[24.661732] (-) TimerEvent: {}
+[24.762754] (-) TimerEvent: {}
+[24.865437] (-) TimerEvent: {}
+[24.966121] (-) TimerEvent: {}
+[25.067141] (-) TimerEvent: {}
+[25.168298] (-) TimerEvent: {}
+[25.271305] (-) TimerEvent: {}
+[25.372363] (-) TimerEvent: {}
+[25.474041] (-) TimerEvent: {}
+[25.575277] (-) TimerEvent: {}
+[25.677781] (-) TimerEvent: {}
+[25.779334] (-) TimerEvent: {}
+[25.880909] (-) TimerEvent: {}
+[25.982500] (-) TimerEvent: {}
+[26.083383] (-) TimerEvent: {}
+[26.185597] (-) TimerEvent: {}
+[26.287203] (-) TimerEvent: {}
+[26.388538] (-) TimerEvent: {}
+[26.489604] (-) TimerEvent: {}
+[26.590618] (-) TimerEvent: {}
+[26.693408] (-) TimerEvent: {}
+[26.794954] (-) TimerEvent: {}
+[26.895881] (-) TimerEvent: {}
+[26.996597] (-) TimerEvent: {}
+[27.098144] (-) TimerEvent: {}
+[27.198816] (-) TimerEvent: {}
+[27.299696] (-) TimerEvent: {}
+[27.401201] (-) TimerEvent: {}
+[27.502806] (-) TimerEvent: {}
+[27.605385] (-) TimerEvent: {}
+[27.706057] (-) TimerEvent: {}
+[27.808082] (-) TimerEvent: {}
+[27.911020] (-) TimerEvent: {}
+[28.011751] (-) TimerEvent: {}
+[28.113855] (-) TimerEvent: {}
+[28.215484] (-) TimerEvent: {}
+[28.316681] (-) TimerEvent: {}
+[28.418026] (-) TimerEvent: {}
+[28.519009] (-) TimerEvent: {}
+[28.620217] (-) TimerEvent: {}
+[28.721577] (-) TimerEvent: {}
+[28.822360] (-) TimerEvent: {}
+[28.923156] (-) TimerEvent: {}
+[29.024141] (-) TimerEvent: {}
+[29.125228] (-) TimerEvent: {}
+[29.227512] (-) TimerEvent: {}
+[29.329126] (-) TimerEvent: {}
+[29.430310] (-) TimerEvent: {}
+[29.530893] (-) TimerEvent: {}
+[29.631885] (-) TimerEvent: {}
+[29.732612] (-) TimerEvent: {}
+[29.833948] (-) TimerEvent: {}
+[29.934723] (-) TimerEvent: {}
+[30.035564] (-) TimerEvent: {}
+[30.137137] (-) TimerEvent: {}
+[30.238644] (-) TimerEvent: {}
+[30.339816] (-) TimerEvent: {}
+[30.440635] (-) TimerEvent: {}
+[30.542068] (-) TimerEvent: {}
+[30.643189] (-) TimerEvent: {}
+[30.744510] (-) TimerEvent: {}
+[30.845495] (-) TimerEvent: {}
+[30.947042] (-) TimerEvent: {}
+[31.048152] (-) TimerEvent: {}
+[31.150217] (-) TimerEvent: {}
+[31.251637] (-) TimerEvent: {}
+[31.353549] (-) TimerEvent: {}
+[31.455073] (-) TimerEvent: {}
+[31.556142] (-) TimerEvent: {}
+[31.656980] (-) TimerEvent: {}
+[31.757939] (-) TimerEvent: {}
+[31.858601] (-) TimerEvent: {}
+[31.961603] (-) TimerEvent: {}
+[32.063050] (-) TimerEvent: {}
+[32.164638] (-) TimerEvent: {}
+[32.265838] (-) TimerEvent: {}
+[32.366476] (-) TimerEvent: {}
+[32.467165] (-) TimerEvent: {}
+[32.568804] (-) TimerEvent: {}
+[32.670265] (-) TimerEvent: {}
+[32.771355] (-) TimerEvent: {}
+[32.872550] (-) TimerEvent: {}
+[32.973455] (-) TimerEvent: {}
+[33.076051] (-) TimerEvent: {}
+[33.176583] (-) TimerEvent: {}
+[33.278598] (-) TimerEvent: {}
+[33.379852] (-) TimerEvent: {}
+[33.481193] (-) TimerEvent: {}
+[33.582463] (-) TimerEvent: {}
+[33.683479] (-) TimerEvent: {}
+[33.784866] (-) TimerEvent: {}
+[33.885952] (-) TimerEvent: {}
+[33.986758] (-) TimerEvent: {}
+[34.087916] (-) TimerEvent: {}
+[34.189022] (-) TimerEvent: {}
+[34.290270] (-) TimerEvent: {}
+[34.391788] (-) TimerEvent: {}
+[34.492802] (-) TimerEvent: {}
+[34.594057] (-) TimerEvent: {}
+[34.695469] (-) TimerEvent: {}
+[34.796379] (-) TimerEvent: {}
+[34.897491] (-) TimerEvent: {}
+[34.998863] (-) TimerEvent: {}
+[35.100666] (-) TimerEvent: {}
+[35.203490] (-) TimerEvent: {}
+[35.307940] (-) TimerEvent: {}
+[35.410532] (-) TimerEvent: {}
+[35.474932] (stm32_diff_drive_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libstm32_diff_drive_hardware.so\x1b[0m\n'}
+[35.510538] (-) TimerEvent: {}
+[35.612559] (-) TimerEvent: {}
+[35.721191] (-) TimerEvent: {}
+[35.822065] (-) TimerEvent: {}
+[35.925800] (-) TimerEvent: {}
+[36.027125] (-) TimerEvent: {}
+[36.128805] (-) TimerEvent: {}
+[36.229376] (-) TimerEvent: {}
+[36.330441] (-) TimerEvent: {}
+[36.431082] (-) TimerEvent: {}
+[36.532145] (-) TimerEvent: {}
+[36.633920] (-) TimerEvent: {}
+[36.735134] (-) TimerEvent: {}
+[36.835807] (-) TimerEvent: {}
+[36.936604] (-) TimerEvent: {}
+[37.037924] (-) TimerEvent: {}
+[37.139150] (-) TimerEvent: {}
+[37.183669] (stm32_diff_drive_hardware) StdoutLine: {'line': b'[100%] Built target stm32_diff_drive_hardware\n'}
+[37.216192] (stm32_diff_drive_hardware) CommandEnded: {'returncode': 0}
+[37.221225] (stm32_diff_drive_hardware) JobProgress: {'identifier': 'stm32_diff_drive_hardware', 'progress': 'install'}
+[37.223965] (stm32_diff_drive_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware'], 'cwd': '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/lib:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giang'), ('OLDPWD', '/home/giang'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1529'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2281'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/giang/ros2_myrobot/install:/home/giang/ros2_demo/install:/home/giang/Workspaces/ros2_cpp_ws/install:/home/giang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giang'), ('JOURNAL_STREAM', '8:25878'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/giang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giang-computer:@/tmp/.ICE-unix/1678,unix/giang-computer:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '54600a6b32c94e00b92e67dbff5d729d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MYL0M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:b5b8214e-e1fa-42f7-939f-af5afdf8c2a9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/giang/ros2_myrobot/build/twist_stamper:/home/giang/ros2_myrobot/install/twist_stamper/lib/python3.10/site-packages:/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs/local/lib/python3.10/dist-packages:/home/giang/ros2_demo/install/autonomous_tb3/lib/python3.10/site-packages:/home/giang/ros2_ws/build/my_robot_controller:/home/giang/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giang/ros2_myrobot/install/stm32_diff_drive_msgs:/home/giang/ros2_myrobot/install/stm32_diff_drive_hardware:/home/giang/ros2_myrobot/install/my_bot:/home/giang/ros2_ws/install/articubot_one:/home/giang/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/giang/ros2_myrobot/install/twist_stamper:/home/giang/ros2_demo/install/autonomous_tb3:/home/giang/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[37.240679] (-) TimerEvent: {}
+[37.246937] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.252798] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.253471] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware//stm32_diff_drive_hardware_plugin.xml\n'}
+[37.254948] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/lib/libstm32_diff_drive_hardware.so\n'}
+[37.257525] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/include/stm32_diff_drive_hardware/diff_drive_hardware.hpp\n'}
+[37.258266] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/stm32_diff_drive_hardware_plugin.xml\n'}
+[37.258769] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/library_path.sh\n'}
+[37.259917] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/library_path.dsv\n'}
+[37.260130] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/ament_index/resource_index/package_run_dependencies/stm32_diff_drive_hardware\n'}
+[37.260359] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/ament_index/resource_index/parent_prefix_path/stm32_diff_drive_hardware\n'}
+[37.261250] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/ament_prefix_path.sh\n'}
+[37.262228] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/ament_prefix_path.dsv\n'}
+[37.263813] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/path.sh\n'}
+[37.264637] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/environment/path.dsv\n'}
+[37.265234] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/local_setup.bash\n'}
+[37.265687] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/local_setup.sh\n'}
+[37.265897] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/local_setup.zsh\n'}
+[37.266379] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/local_setup.dsv\n'}
+[37.266621] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Symlinking: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.dsv\n'}
+[37.287784] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/ament_index/resource_index/packages/stm32_diff_drive_hardware\n'}
+[37.289428] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/stm32_diff_drive_hardware\n'}
+[37.290071] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[37.290331] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/cmake/stm32_diff_drive_hardwareConfig.cmake\n'}
+[37.290498] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/cmake/stm32_diff_drive_hardwareConfig-version.cmake\n'}
+[37.290644] (stm32_diff_drive_hardware) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giang/ros2_myrobot/install/stm32_diff_drive_hardware/share/stm32_diff_drive_hardware/package.xml\n'}
+[37.299922] (stm32_diff_drive_hardware) CommandEnded: {'returncode': 0}
+[37.341380] (-) TimerEvent: {}
+[37.348889] (stm32_diff_drive_hardware) JobEnded: {'identifier': 'stm32_diff_drive_hardware', 'rc': 0}
+[37.350739] (-) EventReactorShutdown: {}

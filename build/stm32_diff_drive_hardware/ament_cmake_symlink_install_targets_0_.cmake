@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/giang/ros2_myrobot/build/stm32_diff_drive_hardware/libstm32_diff_drive_hardware.so" "TARGETS" "stm32_diff_drive_hardware" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
