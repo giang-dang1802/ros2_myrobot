@@ -6,36 +6,34 @@
 *Description: AGV performing real-time SLAM, point-to-point navigation, and automated load picking.*
 
 ## 🚀 Overview
-This project involves the end-to-end development of an autonomous forklift platform (AGV/AMR) built from scratch over 4 months.
-**High-level:** ROS 2 Humble/Foxy running on Raspberry Pi for SLAM and Navigation.
-**Low-level:** STM32 (HAL Library) for real-time motor control and sensor processing.
+[cite_start]This project involves the end-to-end development of an autonomous forklift platform (AGV/AMR) built from scratch over 4 months[cite: 16].
+* [cite_start]**High-level:** ROS 2 Humble/Foxy running on Raspberry Pi for SLAM and Navigation[cite: 7, 18].
+* [cite_start]**Low-level:** STM32 (HAL Library) for real-time motor control and sensor processing[cite: 7, 17].
 
 ## 🛠 Hardware Architecture
-**Main Controller:** Raspberry Pi 4.
-**Motor Controller:** STM32 Microcontroller (HAL/FreeRTOS).
- **Custom PCB:** Designed 2-layer PCB including:
-    * Power regulation and H-Bridge motor driver circuitry.
-    * Opto-isolated MCU protection for noise reduction.
- **Sensors:** LiDAR for SLAM, Encoders for PID feedback.
+* [cite_start]**Main Controller:** Raspberry Pi 4[cite: 7, 18].
+* [cite_start]**Motor Controller:** STM32 Microcontroller (HAL/FreeRTOS)[cite: 7, 17, 26].
+* **Custom PCB:** Designed 2-layer PCB including:
+    * [cite_start]Power regulation and H-Bridge motor driver circuitry[cite: 17, 26].
+    * [cite_start]Opto-isolated MCU protection for noise reduction[cite: 17, 26].
+* [cite_start]**Sensors:** LiDAR for SLAM, Encoders for PID feedback[cite: 17, 18].
 
 ## 💻 Software Stack
- **Robot OS:** ROS 2 Humble/Foxy.
- **Navigation:** Nav2 Stack for autonomous point-to-point navigation.
- **Perception:** SLAM (slam_toolbox/Gmapping) for real-time map building.
- **Firmware:** C/C++ using STM32 HAL, featuring PID control and UART communication.
+* [cite_start]**Robot OS:** ROS 2 Humble/Foxy[cite: 7, 18].
+* [cite_start]**Navigation:** Nav2 Stack for autonomous point-to-point navigation[cite: 18].
+* [cite_start]**Perception:** SLAM (slam_toolbox/Gmapping) for real-time map building[cite: 18].
+* [cite_start]**Firmware:** C/C++ using STM32 HAL, featuring PID control and UART communication[cite: 17].
 
 ## 📸 Technical Results
 ### SLAM & Navigation
-<img width="1874" height="1138" alt="image" src="https://github.com/user-attachments/assets/3b43775b-d7bb-43ec-a626-6b39d867ff80" />
-
+![Add a screenshot of your RViz map here]
 *Real-time occupancy grid mapping and path planning.*
 
 ### PCB Design
-<img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/6a6d4fb0-c5c3-4875-89e0-cf5ab461616e" />
-
+![Add your Altium/KiCad 3D View image here]
 *Custom 2-layer PCB for motor driving and power management.*
 
 ## 📂 Repository Structure
-* `src/`: ROS 2 packages for bringup, description (URDF), and navigation[cite: 18].
-* `firmware/`: STM32CubeIDE project files (HAL-based)[cite: 17, 26].
-* `hardware/`: Schematic and PCB layout files[cite: 17, 26].
+* [cite_start]`src/`: ROS 2 packages for bringup, description (URDF), and navigation[cite: 18].
+* [cite_start]`firmware/`: STM32CubeIDE project files (HAL-based)[cite: 17, 26].
+* [cite_start]`hardware/`: Schematic and PCB layout files[cite: 17, 26].
