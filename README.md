@@ -6,23 +6,23 @@
 *Description: AGV performing real-time SLAM, point-to-point navigation, and automated load picking.*
 
 ## 🚀 Overview
-[cite_start]This project involves the end-to-end development of an autonomous forklift platform (AGV/AMR) built from scratch over 4 months.
-* [cite_start]**High-level:** ROS 2 Humble/Foxy running on Raspberry Pi for SLAM and Navigation.
-* [cite_start]**Low-level:** STM32 (HAL Library) for real-time motor control and sensor processing.
+This project involves the end-to-end development of an autonomous forklift platform (AGV/AMR) built from scratch over 4 months.
+**High-level:** ROS 2 Humble/Foxy running on Raspberry Pi for SLAM and Navigation.
+**Low-level:** STM32 (HAL Library) for real-time motor control and sensor processing.
 
 ## 🛠 Hardware Architecture
-* [cite_start]**Main Controller:** Raspberry Pi 4.
-* [cite_start]**Motor Controller:** STM32 Microcontroller (HAL/FreeRTOS).
-* **Custom PCB:** Designed 2-layer PCB including:
-    * [cite_start]Power regulation and H-Bridge motor driver circuitry.
-    * [cite_start]Opto-isolated MCU protection for noise reduction.
-* [cite_start]**Sensors:** LiDAR for SLAM, Encoders for PID feedback.
+**Main Controller:** Raspberry Pi 4.
+**Motor Controller:** STM32 Microcontroller (HAL/FreeRTOS).
+ **Custom PCB:** Designed 2-layer PCB including:
+    * Power regulation and H-Bridge motor driver circuitry.
+    * Opto-isolated MCU protection for noise reduction.
+ **Sensors:** LiDAR for SLAM, Encoders for PID feedback.
 
 ## 💻 Software Stack
-* [cite_start]**Robot OS:** ROS 2 Humble/Foxy.
-* [cite_start]**Navigation:** Nav2 Stack for autonomous point-to-point navigation.
-* [cite_start]**Perception:** SLAM (slam_toolbox/Gmapping) for real-time map building.
-* [cite_start]**Firmware:** C/C++ using STM32 HAL, featuring PID control and UART communication.
+ **Robot OS:** ROS 2 Humble/Foxy.
+ **Navigation:** Nav2 Stack for autonomous point-to-point navigation.
+ **Perception:** SLAM (slam_toolbox/Gmapping) for real-time map building.
+ **Firmware:** C/C++ using STM32 HAL, featuring PID control and UART communication.
 
 ## 📸 Technical Results
 ### SLAM & Navigation
@@ -36,6 +36,6 @@
 *Custom 2-layer PCB for motor driving and power management.*
 
 ## 📂 Repository Structure
-* [cite_start]`src/`: ROS 2 packages for bringup, description (URDF), and navigation[cite: 18].
-* [cite_start]`firmware/`: STM32CubeIDE project files (HAL-based)[cite: 17, 26].
-* [cite_start]`hardware/`: Schematic and PCB layout files[cite: 17, 26].
+* `src/`: ROS 2 packages for bringup, description (URDF), and navigation[cite: 18].
+* `firmware/`: STM32CubeIDE project files (HAL-based)[cite: 17, 26].
+* `hardware/`: Schematic and PCB layout files[cite: 17, 26].
