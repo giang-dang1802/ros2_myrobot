@@ -1,4 +1,3 @@
-<img width="1291" height="144" alt="image" src="https://github.com/user-attachments/assets/851675e0-4ec8-4b47-bd78-339b1996f924" /># Autonomous Lifting AGV Forklift
 *A complete hardware-software stack for an autonomous mobile robot platform.*
 
 ## 📺 Project Showcase
